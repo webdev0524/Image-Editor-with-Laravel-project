@@ -5,10 +5,10 @@
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{asset('public/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/all.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/all.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('/css/font-awesome.min.css')}}">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
  <div class="wrapper">
             <nav id="sidebar">
 				<div class="sidebar-header">
-					<h3><img src="{{asset('public/images/logo.jpg')}}"></h3>
+					<h3><img src="{{asset('/images/logo.jpg')}}"></h3>
 					
 			                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <button type="button" id="sidebarCollapse" class="btn btn-info">
@@ -30,28 +30,28 @@
 					<div class="inner-drop-downmwnu">
     					<h3>Text Layouts</h3>
     					<ul>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
-    						<li><a href="#"><img src="{{asset('public/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
+    						<li><a href="#"><img src="{{asset('/images/text-layout-1.jpg')}}"></a></li>
     					</ul>
     				</div>	
 					</li>
@@ -132,7 +132,7 @@
 									<p>You can cancel at any Time</p>
 								</div>
 								<div class="col-md-6 PicMonkey">
-									<img src="{{asset('public/images/i_uKHTIClnuD.gif')}}">
+									<img src="{{asset('/images/i_uKHTIClnuD.gif')}}">
 								</div>
 								</div>
 								
@@ -200,7 +200,7 @@
 							  <!-- Modal body -->
 							  <div class="modal-body text-center">
 							  
-								<img src="{{asset('public/images/i_juUHnxPyhT.png')}}">
+								<img src="{{asset('/images/i_juUHnxPyhT.png')}}">
 									<h2>Unlock this feature</h2>
 									<p>Want to download that beauty? You’ll need a PicMonkey subscription.</p>
 									<a href="#">Start A free Trial</a>
@@ -353,7 +353,7 @@
 							  <!-- Modal body -->
 							  <div class="modal-body text-center">
 							  
-								<img src="{{asset('public/images/i_juUHnxPyhT.png')}}">
+								<img src="{{asset('/images/i_juUHnxPyhT.png')}}">
 									<h2>Layers</h2>
 									<p>Want to download that beauty? You’ll need a PicMonkey subscription.</p>
 									<a href="#">Start A free Trial</a>
@@ -383,7 +383,7 @@
 							  <!-- Modal body -->
 							  <div class="modal-body text-center">
 							  
-								<img src="{{asset('public/images/i_juUHnxPyhT.png')}}">
+								<img src="{{asset('/images/i_juUHnxPyhT.png')}}">
 									<h2>Layers</h2>
 									<p>Want to download that beauty? You’ll need a PicMonkey subscription.</p>
 									<a href="#">Start A free Trial</a>
@@ -420,7 +420,7 @@
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-  <script src="{{asset('public/js/bootstrap.min.js')}}"></script>
+  <script src="{{asset('/js/bootstrap.min.js')}}"></script>
   <script src="https://cdn.jsdelivr.net/gh/BossBele/cropzee@latest/dist/cropzee.js" defer></script>
 	  
 <script>
