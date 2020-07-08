@@ -14,15 +14,22 @@
 <body>
     <!---header- -->
  <div class="wrapper">
-			
-		<form class="form-group" method="post" action="https://django.eks.picmonkey.com/service/" 
-		enctype='multipart/form-data' style="display:inline-block">
-			<input type="hidden" name="_import" value="image_file"/>
-			<label for="exampleFormControlFile1">Please select image file to edit</label>
-			<input type="file" class='form-control-file' id='exampleFormControlFile1' name="image_file" size="30">
-    	<button type="submit" class="btn btn-primary">Start editing</button>
-			<input type="hidden" name="_apikey" value="a51b089cb223a969751cf4d9628e2d21"/>
-		</form>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">	
+			<form class="form-group" method="post" action="https://django.eks.picmonkey.com/service/" 
+			enctype='multipart/form-data' style="display:inline-block">
+				<input type="hidden" name="_import" value="image_file"/>
+				<div class="card form-group" style="padding: 10px">
+					<label for="exampleFormControlFile1">Please select image file to edit</label>
+					<input type="file" class='form-control-file' id='exampleFormControlFile1' name="image_file" size="30">
+				</div>
+				<div class="card">
+					<button type="submit" class="btn btn-primary">Start editing</button>
+				</div>
+				<input type="hidden" name="_apikey" value="a51b089cb223a969751cf4d9628e2d21"/>
+			</form>
+		</div>
+		<div class="col-sm-4"></div>
 	</div>
 				
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
