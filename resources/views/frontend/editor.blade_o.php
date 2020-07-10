@@ -2,24 +2,23 @@
 <html>
 <head><meta charset="euc-kr">
     <title>Ideal Tool</title>
-
+    
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('public/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('public/css/all.css')}}">
     <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
-		<link rel="stylesheet" href="{{asset('public/css/font-awesome.min.css')}}">
-		<link rel="stylesheet" href="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.css">
-		<script src="https://uicdn.toast.com/tui-image-editor/latest/tui-image-editor.js"></script>		
+    <link rel="stylesheet" href="{{asset('public/css/font-awesome.min.css')}}">
 </head>
 
 <body>
     <!---header- -->
  <div class="wrapper">
+	 <iframe width="100%" style="height:750px;box-shadow: 15px 15px 10px #888888;border:none;border-top:5px solid #f00;padding: 15px;" src="https://egreetings.gov.in/egrt-editor/" id="dynamic_Src">
             <nav id="sidebar">
 				<div class="sidebar-header">
 					<h3><img src="{{asset('public/images/logo.jpg')}}"></h3>
-
+					
 			                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <button type="button" id="sidebarCollapse" class="btn btn-info">
                             <span><i class="fa fa-bars" aria-hidden="true"></i></span>
